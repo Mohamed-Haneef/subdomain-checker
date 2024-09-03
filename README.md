@@ -14,7 +14,7 @@
 +=========================================================+
 ```
 
-# Subdomain Finder v0.0.1
+# Subdomain Checker v0.0.1
 
     This tool helps to gather the subdomains and the DNS records of all the active subdomains under the given domain
 
