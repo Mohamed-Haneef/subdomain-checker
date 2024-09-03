@@ -10,6 +10,7 @@ BLUE='\033[0;34m'
 MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m' 
+# Test
 
 # Font styles
 BOLD='\033[1m'
@@ -211,6 +212,7 @@ if [ -s "$availabledomains" ]; then
     do
         echo -e "${MAGENTA}${available_domain}${NC}"
     done < "$availabledomains"
+    echo
     echo -e "${BOLD}${GREEN}Checking for the active subdomains...${NC}"
     echo -e "${BOLD}${YELLOW}Please wait this may take a while..${NC}"
     httpx -l "$availabledomains" -o "$activedomains" -silent > /dev/null
