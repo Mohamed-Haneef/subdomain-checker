@@ -10,7 +10,7 @@ BLUE='\033[0;34m'
 MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m' 
-# Test
+# Test tool
 
 # Font styles
 BOLD='\033[1m'
